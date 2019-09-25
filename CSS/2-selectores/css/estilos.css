@@ -1,0 +1,53 @@
+/*Selector universal*/
+/* *{
+    color: red;
+    margin: 0px;
+    padding: 0px
+} */
+
+/*Selector de etiqueta*/
+h2{
+    font-size: 50px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: green;
+}
+
+/*Selectores descendentes*/
+/*1*/
+/*a{
+    color: pink;
+}*/
+/*2*/
+ p a{
+    color: blueviolet;
+}
+
+/*Selector de clases*/
+.atenuar{
+    font-weight: bold;
+}
+
+div.padre{
+    width: 100%;
+    height: 300px;
+    background: gray;
+    padding: 25px;
+}
+
+div.hijo{
+    width: 300px;
+    height: 150px;
+    background: blue;
+    margin: 25px;
+    padding: 10px;
+}
+
+p.caja{
+    background: white;
+    margin: 10px;
+    display: inline;
+    padding: 20px;
+}

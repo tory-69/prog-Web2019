@@ -1,0 +1,13 @@
+p{
+    background: blueviolet;
+    color: #fff;
+    width: 30%;
+    height: 140px;
+    padding: 30px;
+    margin: 20px;
+    /*margin: 15px 10px 12px 5px;*/
+    /*margin-top: 15px;*/
+    /*margin-left: 10px;*/
+    border: 10px solid #000;
+    display: inline-block;
+}

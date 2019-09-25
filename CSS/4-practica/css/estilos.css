@@ -1,0 +1,28 @@
+h1{
+    padding: 18px;
+    background: blue;
+    text-align: center;
+    color: white;
+}
+
+
+body{
+    text-align: center;
+    background: black;
+    font-family: verdana;
+    color: white;
+}
+
+p a{
+    background: darkorange;
+    
+}
+p.tam{
+    font-size: 20px;
+}
+p.color{
+    color: green;
+}
+a{
+    font-size: 2em;
+}

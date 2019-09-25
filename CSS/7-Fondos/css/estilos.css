@@ -1,0 +1,16 @@
+body{
+    /*background: grey;
+    background: url('../imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;*/
+    background-repeat: repeat;
+    color: black;
+
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(255, 208, 147, .5), rgba(112, 225, 245, .5)) url('../imagenes/fondo.jpg'); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(255, 209, 148,.5), rgba(112, 225, 245,.5))
+    url('../imagenes/fondo.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

@@ -1,0 +1,24 @@
+h1{
+    font-weight: normal;
+    text-align: center;
+    background: #ccc;
+    /*display: inline;*/
+}
+
+body{
+    font-family: Consolas, Verdana;
+}
+
+.uno, .dos, .tres{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;  /*Espaciado*/
+    /*text-decoration: overline underline*/;
+    /*text-decoration: line-through; tachado*/
+    text-transform: /*uppercase capitalize */lowercase;
+    /*letter-spacing: 20px; espaciado de letra
+    word-spacing: 5px; espaciado entre palabras*/
+    text-shadow: 5px 5px 5px #000; /*horizontal vertical tamano color*/
+
+
+}

@@ -1,0 +1,37 @@
+div{
+    /*Alt+ alin pnts*/
+    width        : 100px;
+    height       : 100px;
+    background   : #4787f4cc;
+    color        : white;
+    font-size    : 30px;
+
+    margin       : 5px;
+    border-radius: 5px; /*redondea esquinas*/
+    float        : left; /*una caja tras otra, alineada*/
+}
+.caja{
+
+    /*position: relative;  (por default es static) relative toma en cuenta el area donde trabajara, at top, bottom, right, left
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;*/
+
+    /*position: absolute; toma toda la pag para posicionarse
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;*/
+
+    position: fixed; /*que una caja se quede fija*/
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;
+}
+img{
+    width: 200px;
+    float: left;
+    margin: 10px;
+}
